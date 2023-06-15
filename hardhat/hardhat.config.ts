@@ -80,14 +80,20 @@ const config: HardhatUserConfig = {
     deployer: {
       default: 0,
     },
-    feeAccount: {
-      default: "deployer",
+    creator: {
+      default: 1,
     },
-    user1: {
+    buyer: {
       default: 2,
     },
-    user2: {
+    seller: {
       default: 3,
+    },
+    buyer1: {
+      default: 4,
+    },
+    seller1: {
+      default: 5,
     },
   },
 };
